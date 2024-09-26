@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: black; /* Light gray background */
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: #343a40;
+            height: 80px;
+            width: 100%;
+            display: flex;
+            font-family: 'Times New Roman', Times, serif;
+            align-items: center;
+            justify-content: space-between; /* Align logo and nav links */
+            padding: 0 50px; /* Adjusted padding */
+        }
+        .logo {
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 10px; /* Adjusted margin */
+        }
+        nav ul li a {
+            color: white;
+            font-size: 17px;
+            padding: 10px 15px; /* Adjusted padding */
+            border-radius: 3px;
+            text-transform: uppercase;
+            transition: color 0.5s; /* Smooth transition */
+            text-decoration: none;
+        }
+        nav ul li.active a {
+            color: forestgreen; /* Active link color */
+        }
+        nav ul li:not(.active) a:hover {
+            color: forestgreen; /* Hover color for non-active links */
+        }
+        .one {
+            border: 1px solid white;
+            text-decoration: underline;
+            color: white;
+            padding: 10px;
+            border: none;
+            top: -10PX;
+        }
+        .imgs1 {
+            width: 250px;
+            height: 400px;
+            position: relative;
+            top: -300px;
+            right: 270px;
+        }
+        .imgs {
+            font-size: 124%;
+            color: white;
+            position: relative;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">M KRISHNA SAI GOUD</label>
+        <ul>
+            <li><a href="index.html.html">Home</a></li>
+            <li><a href="About.html">about</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            
+                 <li><a href="MALISETTY KRISHNA SAI GOUD RESUME.pdf" >Resume</a></li>
+                        
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div>
+            <h1 class="one">About....</h1>
+        </div>
+        <div class="imgs">
+            <p>Focused and enthusiastic developer with a keen interest in software development and artificial intelligence.<br> By comprehensive exposure to the underlying concepts and applying them vividly to various projects, <br>my love for these domains came into being. I am a passionate individual who thrives to build <br>and apply algorithms to solve real-world industry problems.</p>
+            <p>Birthday: 18 July 2003</p>
+            <p>Phone: +91 9999999999</p>
+            <p>City:Rly.kodur,AndhraPradesh,516101</p>
+            <p>Email: malisettykrishnasaigoud@gmail.com</p>
+            <img src='./WhatsApp Image 2024-03-09 at 4.08.06 PM.jpeg' class="imgs1">
+        </div>
+    </div>
+</body>
+</html>
